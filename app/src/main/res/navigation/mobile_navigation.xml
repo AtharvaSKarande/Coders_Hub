@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_quiz">
+
+    <fragment
+        android:id="@+id/navigation_interview_questions"
+        android:name="com.coders.codershub.ui.interview_questions.InterviewQuestionsFragment"
+        android:label="@string/title_interview_questions"
+        tools:layout="@layout/fragment_interview_questions" >
+        <action
+            android:id="@+id/action_navigation_discuss_to_navigation_quiz"
+            app:destination="@id/navigation_quiz" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_quiz"
+        android:name="com.coders.codershub.ui.quiz.QuizFragment"
+        android:label="@string/title_quiz"
+        tools:layout="@layout/fragment_quiz" >
+        <action
+            android:id="@+id/action_navigation_quiz_to_navigation_profile"
+            app:destination="@id/navigation_profile" />
+        <action
+            android:id="@+id/action_navigation_quiz_to_navigation_discuss"
+            app:destination="@id/navigation_interview_questions" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.coders.codershub.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_navigation_profile_to_navigation_quiz"
+            app:destination="@id/navigation_quiz" />
+    </fragment>
+</navigation>

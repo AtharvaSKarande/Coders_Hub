@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "196223861356",
+    "firebase_url": "https://coders-hub-ba496.firebaseio.com",
+    "project_id": "coders-hub-ba496",
+    "storage_bucket": "coders-hub-ba496.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196223861356:android:59466a5615ece99c138e49",
+        "android_client_info": {
+          "package_name": "com.coders.codershub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196223861356-fkc3o7rp8qj4pjuelr0h03s577r3vkpu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.coders.codershub",
+            "certificate_hash": "27224d9a593ea0178af05dd35ee9e80f7ec56334"
+          }
+        },
+        {
+          "client_id": "196223861356-cn6bej2dc0nkbrpdhu3jb7ktdtlot1ia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvUWly8EijEIMlFUTpND12-BcesjdZGbE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196223861356-cn6bej2dc0nkbrpdhu3jb7ktdtlot1ia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
